@@ -1,0 +1,4 @@
+manifest>
+  <project name="PixelExtended-Devices/device_xiaomi_citrus" path="device/xiaomi/citrus" remote="github" revision="uvite" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi/citrus" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_kernel_xiaomi_sm6115" path="kernel/xiaomi/sm6115" remote="github" revision="lineage-21" /
