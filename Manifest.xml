@@ -1,3 +1,46 @@
-<project name="Nuapali/AIOS-TumWeb" path="packages/apps/TumWeb" remote="github" revision="main" />
-<project name="Nuapali/AIOS-TumLite" path="packages/apps/TumLite" remote="github" revision="main" />
-<project name="Nuapali/AIOS-Overlay" path="vendor/aios" remote="github" revision="main" />
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- 📱 Device Tree -->
+  <project name="PixelOS-Devices/device_xiaomi_citrus" 
+           path="device/xiaomi/citrus" 
+           remote="github" 
+           revision="fourteen" />
+
+  <!-- 🧩 Vendor Blobs -->
+  <project name="TheMuppets/proprietary_vendor_xiaomi" 
+           path="vendor/xiaomi" 
+           remote="github" 
+           revision="thirteen" />
+
+  <!-- ⚙️ Kernel Source -->
+  <project name="PixelOS-Devices/kernel_xiaomi_sm6115" 
+           path="kernel/xiaomi/sm6115" 
+           remote="github" 
+           revision="fourteen" />
+
+  <!-- 🤖 AI OS Tum AI (Offline AI Assistant) -->
+  <project name="Nuapali/TumLite" 
+           path="packages/apps/TumLite" 
+           remote="github" 
+           revision="main" />
+
+  <!-- 🌐 TumWeb (Online Assistant UI) -->
+  <project name="Nuapali/TumWeb" 
+           path="packages/apps/TumWeb" 
+           remote="github" 
+           revision="main" />
+
+  <!-- 🎨 AI OS Branding Overlay -->
+  <project name="Nuapali/AIOS-Overlay" 
+           path="packages/overlays/AIOS" 
+           remote="github" 
+           revision="main" />
+
+  <!-- 🎞️ Boot Animation (Ajay Dash) -->
+  <project name="Nuapali/AIOS-Bootanimation" 
+           path="vendor/media/bootanimation" 
+           remote="github" 
+           revision="main" />
+
+</manifest>
