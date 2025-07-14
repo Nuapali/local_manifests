@@ -1,0 +1,3 @@
+<project name="Nuapali/AIOS-TumWeb" path="packages/apps/TumWeb" remote="github" revision="main" />
+<project name="Nuapali/AIOS-TumLite" path="packages/apps/TumLite" remote="github" revision="main" />
+<project name="Nuapali/AIOS-Overlay" path="vendor/aios" remote="github" revision="main" />
